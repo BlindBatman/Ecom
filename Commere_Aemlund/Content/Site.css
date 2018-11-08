@@ -1,0 +1,52 @@
+﻿body {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    background-color: lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+html {
+    background-color: lightgray
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.missText {
+    width: 90%;
+    text-align: center;
+    text-wrap: normal;
+    padding-left: 100px;
+}
+.movement {
+   margin-left:300px;
+   margin-top:-250px;
+   min-height:500px;
+   font-size:medium;
+}
+
+.picChange {
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+.fixpic{
+    height:50px;
+    width:50px;
+}

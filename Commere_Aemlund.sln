@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commere_Aemlund", "Commere_Aemlund\Commere_Aemlund.csproj", "{0E87BBAE-93A7-49A8-9D8C-EEC382D059BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commere_Aemlund.Tests", "Commere_Aemlund.Tests\Commere_Aemlund.Tests.csproj", "{D380B93A-34DE-45B9-BB53-94DB8C035D2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E87BBAE-93A7-49A8-9D8C-EEC382D059BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E87BBAE-93A7-49A8-9D8C-EEC382D059BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E87BBAE-93A7-49A8-9D8C-EEC382D059BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E87BBAE-93A7-49A8-9D8C-EEC382D059BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D380B93A-34DE-45B9-BB53-94DB8C035D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D380B93A-34DE-45B9-BB53-94DB8C035D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D380B93A-34DE-45B9-BB53-94DB8C035D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D380B93A-34DE-45B9-BB53-94DB8C035D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8594C0C3-C1C1-4B26-B5CB-BECC8A7355FA}
+	EndGlobalSection
+EndGlobal

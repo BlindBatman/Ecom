@@ -1,0 +1,57 @@
+﻿@model int
+@{
+    /**/
+
+    ViewBag.Title = "ProductDetails";
+}
+
+<h2>Product Details</h2>
+
+@if (Model == 1)
+{
+    <div>
+        <img src="~/Content/Homeless.jpg" />
+    </div>
+    <div class="movement">
+        <p>Name: Stephan Unemployed</p>
+        <p>Price: $37.25</p>
+        <ul class="list">
+            <li>Homeless</li>
+            <li>Willing to put in a lot of time and effort</li>
+            <li>Wants friends</li>
+            <li>Has only killed other homeless before</li>
+        </ul>
+    </div>
+}
+else if (Model == 2)
+{
+    <div>
+        <img src="~/Content/download.jpg" />
+    </div>
+    <div class="movement">
+        <p>Name: Josh Krebs (No Relation)</p>
+        <p>Price: $103,562.13 + tax</p>
+        <ul class="list">
+            <li>Most likely thought this was a different site</li>
+            <li>College Professor</li>
+            <li>Like Vidyah Games</li>
+            <li>Will kill flies</li>
+        </ul>
+    </div>
+}
+else if (Model == 3)
+{
+    <div>
+        <img src="~/Content/hitman47.jpg" />
+    </div>
+    <div class="movement">
+        <p>Name: Agent 47</p>
+        <p>Price: Cookies </p>
+        <ul class="list">
+            <li>Deadly</li>
+            <li>Has no time for bull and wants to kill</li>
+            <li>Actually a teddy bear</li>
+            <li>Probably will kill you because he can</li>
+        </ul>
+    </div>
+}
