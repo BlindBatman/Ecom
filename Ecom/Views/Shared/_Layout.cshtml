@@ -25,6 +25,7 @@
                     <li>@Html.ActionLink("Catalog", "Catalog", "Home")</li>
                 </ul>
                 <p class="nav navbar-text navbar-right">Hello, @User.Identity.Name!</p>
+                @Html.Partial("_LoginPartial")
             </div>
         </div>
     </div>

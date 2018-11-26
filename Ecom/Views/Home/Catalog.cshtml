@@ -1,15 +1,29 @@
-﻿
+﻿@using Hitmans.Models
+@model List<Hitmany>
 @{
     ViewBag.Title = "Catalog";
 }
 
 <div>
     <ul>
-        <li>
+        @foreach (var item in Model)
+        {
+            <li>
+                <div>
+                    <ul class="list">
+                        <li><a href="ProductDetails/@item.ID"><img src=@item.PicLink class="picChange" /></a></li>
+                        <li>Hitman @item.ID</li>
+                        <li>Name: @item.Name</li>
+                        <li>Price: @item.Price</li>
+                    </ul>
+                </div>
+            </li>
+        }
+        @*<li>
             <div>
                 <a href="ProductDetails/1"> Hitman 1</a>
                 <ul class="list">
-                    <li><img src="~/Content/Homeless.jpg" class="picChange"/></li>
+                    <li><img src="~/Content/Homeless.jpg" class="picChange" /></li>
                     <li>Name: Stephan Unemployed</li>
                     <li>Price: $37.25</li>
                 </ul>
@@ -19,7 +33,7 @@
             <div>
                 <a href="ProductDetails/2"> Hitman 2 </a>
                 <ul class="list">
-                    <li><img src="~/Content/download.jpg" class="picChange"/></li>
+                    <li><img src="~/Content/download.jpg" class="picChange" /></li>
                     <li>Name: Josh Krebs (No Relation)</li>
                     <li>Price: $103,562.13 + tax</li>
                 </ul>
@@ -29,11 +43,11 @@
             <div>
                 <a href="ProductDetails/3">Hitman 3 - Hitman 72</a>
                 <ul class="list">
-                    <li><img src="~/Content/hitman47.jpg" class="picChange"/></li>
+                    <li><img src="~/Content/hitman47.jpg" class="picChange" /></li>
                     <li>Name: Agent 47</li>
                     <li>Price: Cookies</li>
                 </ul>
             </div>
-        </li>
+        </li>*@
     </ul>
 </div>

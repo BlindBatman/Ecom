@@ -1,0 +1,26 @@
+﻿@using Hitmans.Models
+@model Hitmany
+@{
+    /**/
+
+    ViewBag.Title = "ProductDetails";
+}
+
+<h2>Product Details</h2>
+
+
+
+<div>
+    <img src=@Model.PicLink />
+</div>
+<div >
+    <p>Name: @Model.Name</p>
+    <p>Price: @Model.Price</p>
+    <ul class="list">
+        @foreach (var item in Model.Description)
+        {
+            <li>@item</li>
+        }
+
+    </ul>
+</div>
